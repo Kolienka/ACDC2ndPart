@@ -1,3 +1,25 @@
+# Partie 2 projet ACDC Analyse de performances
+
+Cette seconde partie du projet ACDC a été réalisée à l'aide du framework React.JS
+
+### Fonctionalités:
+  1. Recupération des contrats disponibles via l'API et affichage de ces derniers
+  2. Affichage des informations d'un contrat séléctionné (nom, méthode, type d'inputs et outputs...)
+  3. Personnalisation et réaliser d'executions (une ou plusieurs à la fois) d'un smart contrat choisi (taille des inputs de base, choix d'un pas, du nombre d'executions...) Il         est possible d'attribuer un nom à chaque execution afin de les identifier facilement
+  4. Choix d'une execution réalisée afin d'afficher la courbe montrant l'évolution du coût en gas du contrat en fonction de la taille des inputs
+  5. Récupération via une API de l'équivalence d'un ethereum en euros
+  
+  ### Piste d'améliorations:
+  1. Petite calculatrice permettant de convertir le montant voulu d'ethereum en euros/dollars et inversement 
+  2. Ameliorer la partie du graphe afin de pouvoir afficher plusieurs courbes de manières simultanée afin de comparer le coût en gas de ces dernieres
+  3. Pouvoir donner un coût au gas afin d'estimer le prix d'un smart contract 
+
+# Lancer le projet:
+  1. Démarer le partie 1 du projet réalisée par Simon Sassi à l'aide de ./gradlew run
+  2. Se déplacer dans le repertoire de la partie 2 du projet et lancer `npm i`
+  3. Dans le même repertoire lancer `npm start`
+  4. Se rendre sur son navigateur favori et donner l'url http://localhost:3000
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
